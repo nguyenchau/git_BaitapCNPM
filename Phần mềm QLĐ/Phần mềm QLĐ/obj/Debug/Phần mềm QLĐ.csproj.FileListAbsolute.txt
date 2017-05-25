@@ -15,3 +15,6 @@ D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.Bangdiemtongh
 D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.Login.resources
 D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.exe.licenses
 D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.dangnhap.resources
+D:\CNPM_\bt\GitCNPM\git_BaitapCNPM\Phần mềm QLĐ\Phần mềm QLĐ\bin\Debug\Phần mềm QLĐ.exe.config
+D:\CNPM_\bt\GitCNPM\git_BaitapCNPM\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.exe
+D:\CNPM_\bt\GitCNPM\git_BaitapCNPM\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.pdb
