@@ -1,0 +1,20 @@
+D:\Phần mềm QLĐ\Phần mềm QLĐ\bin\Debug\Phần mềm QLĐ.exe.config
+D:\Phần mềm QLĐ\Phần mềm QLĐ\bin\Debug\Phần mềm QLĐ.exe
+D:\Phần mềm QLĐ\Phần mềm QLĐ\bin\Debug\Phần mềm QLĐ.pdb
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.csprojResolveAssemblyReference.cache
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.frmMain.resources
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.Properties.Resources.resources
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.csproj.GenerateResource.Cache
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.exe
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.pdb
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.frmSinhvien.resources
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.frmLops.resources
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.frmtimthongtinsv.resources
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.HK_HP.resources
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.Bangdiemtonghop.resources
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.Login.resources
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.exe.licenses
+D:\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần_mềm_QLĐ.dangnhap.resources
+D:\CNPM_\bt\GitCNPM\git_BaitapCNPM\Phần mềm QLĐ\Phần mềm QLĐ\bin\Debug\Phần mềm QLĐ.exe.config
+D:\CNPM_\bt\GitCNPM\git_BaitapCNPM\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.exe
+D:\CNPM_\bt\GitCNPM\git_BaitapCNPM\Phần mềm QLĐ\Phần mềm QLĐ\obj\Debug\Phần mềm QLĐ.pdb

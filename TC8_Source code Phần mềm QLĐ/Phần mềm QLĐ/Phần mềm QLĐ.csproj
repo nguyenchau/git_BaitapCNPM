@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E5CD0627-9698-47BE-9346-2C09C67080E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Phần_mềm_QLĐ</RootNamespace>
+    <AssemblyName>Phần mềm QLĐ</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bangdiemtonghop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bangdiemtonghop.Designer.cs">
+      <DependentUpon>Bangdiemtonghop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dangnhap.Designer.cs">
+      <DependentUpon>dangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLops.Designer.cs">
+      <DependentUpon>frmLops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSinhvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSinhvien.Designer.cs">
+      <DependentUpon>frmSinhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmtimthongtinsv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtimthongtinsv.Designer.cs">
+      <DependentUpon>frmtimthongtinsv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HK-HP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HK-HP.Designer.cs">
+      <DependentUpon>HK-HP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLD.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLD.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLDDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="xuli.cs" />
+    <EmbeddedResource Include="Bangdiemtonghop.resx">
+      <DependentUpon>Bangdiemtonghop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dangnhap.resx">
+      <DependentUpon>dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLops.resx">
+      <DependentUpon>frmLops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSinhvien.resx">
+      <DependentUpon>frmSinhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmtimthongtinsv.resx">
+      <DependentUpon>frmtimthongtinsv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HK-HP.resx">
+      <DependentUpon>HK-HP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="QLD.dbml.layout">
+      <DependentUpon>QLD.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QLD.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QLD.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet.xsc">
+      <DependentUpon>QLDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet.xss">
+      <DependentUpon>QLDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet1.xsc">
+      <DependentUpon>QLDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet1.xss">
+      <DependentUpon>QLDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet10.xsc">
+      <DependentUpon>QLDDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet10.xss">
+      <DependentUpon>QLDDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet11.xsc">
+      <DependentUpon>QLDDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet11.xss">
+      <DependentUpon>QLDDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet12.xsc">
+      <DependentUpon>QLDDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet12.xss">
+      <DependentUpon>QLDDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet13.xsc">
+      <DependentUpon>QLDDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet13.xss">
+      <DependentUpon>QLDDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet14.xsc">
+      <DependentUpon>QLDDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet14.xss">
+      <DependentUpon>QLDDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet2.xsc">
+      <DependentUpon>QLDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet2.xss">
+      <DependentUpon>QLDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet3.xsc">
+      <DependentUpon>QLDDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet3.xss">
+      <DependentUpon>QLDDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet4.xsc">
+      <DependentUpon>QLDDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet4.xss">
+      <DependentUpon>QLDDataSet4.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLDDataSet5.xsc">
+      <DependentUpon>QLDDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet5.xss">
+      <DependentUpon>QLDDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet6.xsc">
+      <DependentUpon>QLDDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet6.xss">
+      <DependentUpon>QLDDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet7.xsc">
+      <DependentUpon>QLDDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet7.xss">
+      <DependentUpon>QLDDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet8.xsc">
+      <DependentUpon>QLDDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet8.xss">
+      <DependentUpon>QLDDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet9.xsc">
+      <DependentUpon>QLDDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="QLDDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLDDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLDDataSet9.xss">
+      <DependentUpon>QLDDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\15327571_1063782490399504_304987077_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
